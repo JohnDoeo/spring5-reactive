@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Spring5ReactiveApplication {
 
 	public static void main(String[] args) throws IOException {
+		System.out.println("spring boot project starting...");
 		SpringApplication.run(Spring5ReactiveApplication.class, args);
 	}
 
